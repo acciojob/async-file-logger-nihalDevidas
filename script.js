@@ -9,3 +9,6 @@ const fileNames = [
 
 // do not change the code above
 // add your code here
+
+fileNames.forEach((value, index)=>
+	console.log(`File ${index+1}: This content is from file ${index+1}`))
